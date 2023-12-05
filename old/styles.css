@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap");
+
+/* Inicio font pagina */
+.css-nsuj5j {
+    font-family: "Roboto", serif;
+}
+
+/* Inicio hover textos */
+.st-c8 {
+    font-family: "Roboto", serif;
+    color: #091a42 !important;
+    font-size: 15px;
+}
+
+.st-c8:hover {
+    font-weight: 500;
+    color: #ec111a;
+    font-size: 15px;
+}
+
+.st-cf:hover {
+    font-weight: 500;
+    color: #ec111a;
+    font-size: 15px;
+}
+
+.css-nsuj5j p {
+    word-break: break-word;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+.css-nsuj5j p:hover {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.css-nsuj5j p:active {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/*Inicio Fondo menu lateral */
+.css-6qob1r {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: overlay;
+}
+
+/* Tamano menu lateral */
+.css-vk3wp9 {
+    position: relative;
+    top: 2px;
+    background-color: rgb(240, 242, 246);
+    z-index: 999991;
+    min-width: 320px;
+    max-width: 320px;
+    transform: none;
+    transition: transform 300ms ease 0s, min-width 300ms ease 0s,
+        max-width 300ms ease 0s;
+}
+
+/* Botones que abre y cierra el menu lateral */
+.css-1csa8lq {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 0px 0.125rem;
+    width: auto;
+    user-select: none;
+    background-color: white !important;
+    border-radius: 50px;
+    border: none;
+    padding: 0.5rem;
+    line-height: 1;
+    color: #ec111a;
+}
+
+.css-1csa8lq:hover {
+    background-color: #ec111a !important;
+    color: white;
+}
+
+/* Boton cargar archivo */
+.css-ezd9go {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0.25rem 2.75rem;
+    margin: 0px;
+    line-height: 1.6;
+    user-select: none;
+    background-color: white;
+    color: black;
+    /* font-weight: bold !important; */
+    height: 35px;
+    width: auto;
+    /* border: solid 1px black; */
+    font-size: 12px;
+    font-family: "Roboto", serif;
+    border-radius: 0px;
+}
+
+.css-ezd9go:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.css-ezd9go:focus:not(:active) {
+    border-color: white;
+    background-color: white;
+    color: #ec111a;
+}
+
+.css-ezd9go:hover {
+    border-color: #ec111a;
+    background-color: #ec111a;
+    color: white;
+}
+
+.css-ezd9go:active {
+    border-color: #ec111a;
+    background-color: #ec111a;
+    color: white;
+}
+
+.css-wg5xed {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0.25rem 2.75rem;
+    margin: 0px;
+    line-height: 1.6;
+    user-select: none;
+    background-color: white;
+    color: black;
+    /* font-weight: bold !important; */
+    height: 35px;
+    width: auto;
+    /* border: solid 1px black; */
+    font-size: 12px;
+    font-family: "Roboto", serif;
+    border-radius: 0px;
+}
+
+.css-wg5xed:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.css-wg5xed:focus:not(:active) {
+    border-color: white;
+    background-color: white;
+    color: #ec111a;
+}
+
+.css-wg5xed:hover {
+    border-color: #ec111a;
+    background-color: #ec111a;
+    color: white;
+}
+
+.css-wg5xed:active {
+    border-color: #ec111a;
+    background-color: #ec111a;
+    color: white;
+}
+
+/* Boton ejecutar modelo*/
+.css-1jtp629 p {
+    word-break: break-word;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.css-bcpc81 {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0.25rem 2.75rem;
+    margin: 0px;
+    line-height: 1.6;
+    user-select: none;
+    background-color: white;
+    color: black;
+    font-weight: bold !important;
+    height: 35px;
+    width: auto;
+    border: 1px solid rgba(70, 30, 125, 0.2);
+    font-size: 10px;
+    font-family: "Roboto", serif;
+    border-radius: 0px;
+}
+
+.css-bcpc81:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.css-bcpc81:focus:not(:active) {
+    border-color: #ec111a !important;
+    background-color: #ec111a !important;
+    color: white !important;
+}
+
+.css-bcpc81:hover {
+    border-color: #ec111a !important;
+    background-color: #ec111a !important;
+    color: white !important;
+}
+
+.css-bcpc81:active {
+    border-color: #ec111a !important;
+    background-color: #ec111a !important;
+    color: white !important;
+}
+
+.css-1qayjeh {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0.25rem 2.75rem;
+    margin: 0px;
+    line-height: 1.6;
+    user-select: none;
+    background-color: white;
+    color: black;
+    font-weight: bold !important;
+    height: 35px;
+    width: auto;
+    border: 1px solid rgba(70, 30, 125, 0.2);
+    font-size: 10px;
+    font-family: "Roboto", serif;
+    border-radius: 0px;
+}
+
+.css-1qayjeh:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.css-1qayjeh:focus:not(:active) {
+    border-color: #ec111a !important;
+    background-color: #ec111a !important;
+    color: white !important;
+}
+
+.css-1qayjeh:hover {
+    border-color: #ec111a !important;
+    background-color: #ec111a !important;
+    color: white !important;
+}
+
+.css-1qayjeh:active {
+    border-color: #ec111a !important;
+    background-color: #ec111a !important;
+    color: white !important;
+}
+
+/* Ttitulos y subtitulos */
+.css-b1jwkk {
+    color: #ec111a;
+}
+
+.st-de {
+    background: none;
+}
+
+.css-qcqlej {
+    width: 100%;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+}
+
+.css-z5fcl4 {
+    width: 100%;
+    padding: 4rem 2rem 2rem 2rem;
+    min-width: auto;
+    max-width: initial;
+}
+
+.css-1kfsq69 {
+    color: rgba(70, 30, 125, 0.4);
+    font-size: 14px;
+    height: 2.5rem;
+    min-width: auto;
+    max-width: initial;
+    padding: 0rem 0rem;
+    width: 100%;
+}
+
+/* Inicio padding y color fondo menu lateral */
+.css-1544g2n {
+    padding: 5rem 1rem 1.5rem;
+    background-color: transparent;
+}
+
+/* Inicio color fondo despliegue titulos lista */
+.st-c8 {
+    color: #091a42;
+    /* background-color: #01c1d62e; */
+}
+
+h1 {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    color: #ec111a;
+    padding: 1.25rem 0px 1rem;
+    margin: 0px;
+    line-height: 1.2;
+}
+
+h3 {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Roboto", serif;
+}

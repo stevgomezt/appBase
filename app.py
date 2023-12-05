@@ -744,7 +744,7 @@ def main():
     """
 
     # Configura título e ícono de página
-    st.set_page_config(page_title="scotiabankcolpatria",
+    st.set_page_config(page_title="appBase",
                        page_icon="img/Icono.png", layout="wide")
 
     # Lee el contenido del archivo CSS
@@ -760,7 +760,8 @@ def main():
     vista2, vista1 = st.tabs(["Reporte descriptivo", "Resultado modelo"])
 
     # Menú y logo en la barra lateral
-    st.sidebar.image("img/logo.png", width=245)
+    # st.sidebar.image("img/fondologo.png", width=245)
+    st.sidebar.image("img/fondologo.png")
     st.sidebar.write("")
 
     # Establece el estilo del botón cuando se realiza un hover

@@ -1,7 +1,27 @@
+# config.toml
+
+[general]
+email = "tucorreo@example.com"
+showWarningOnDirectExecution = false
+
 [server]
+enableCORS = false
+headless = true
+port = 8501
 maxUploadSize = 200
 
+[runner]
+command = ["streamlit"]
+
+[logger]
+level = "info"
+
+[client]
+caching = false
+
 [theme]
-base="light"
-primaryColor="#ec111a"
-textColor="#461e7d"
+base = "light"
+primaryColor = "#522DB2"
+backgroundColor = "#F0F2F6"
+
+# https://docs.streamlit.io/
